@@ -20,7 +20,14 @@
   line-height: 24px;
   font-weight: 400;
 
+  --gradient-black: rgba(0, 0, 0, 0.1);
+  --gradient-white: rgba(255, 255, 255, 0.2);
   --background-color: #39036e;
+  --background-burger: #32065c;
+  --backdrop-color: rgba(0, 0, 0, 0.7);
+
+  --black-color: #000;
+  --white-color: #fff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -48,7 +55,7 @@ body {
   margin-right: auto;
 }
 
-@include media($desktop) {
+@include media(desktop) {
   .container {
     max-width: 1200px;
     padding-left: 80px;

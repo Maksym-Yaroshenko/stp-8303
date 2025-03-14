@@ -39,7 +39,7 @@
                 style="fill:var(--color1, #fff)"
             />
         </symbol>
-        <symbol id="icon-burger_menu" viewBox="0 0 32 32">
+        <symbol id="icon-burger-menu" viewBox="0 0 32 32">
             <path 
                 fill="#fff" 
                 d="M4 24v-2.667h24V24H4zm0-6.667v-2.667h24v2.667H4zm0-6.666V8h24v2.667H4z" 
