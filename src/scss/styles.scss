@@ -33,3 +33,25 @@ body {
   background-color: var(--background-color);
   font-family: 'Open Sans', sans-serif;
 }
+
+.section {
+  // padding-left: 16px;
+  // padding-right: 16px;
+}
+
+.container {
+  height: 100%;
+  max-width: 320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@include media($desktop) {
+  .container {
+    max-width: 1200px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
