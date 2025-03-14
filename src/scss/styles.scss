@@ -1,5 +1,18 @@
 @import './header.scss';
-@import './vite-promo.scss';
+@import './hero.scss';
+@import './about-the-game.scss';
+@import './how-to-play.scss';
+@import './game-features.scss';
+@import './game-atmosphere.scss';
+@import './gallery.scss';
+@import './reviews.scss';
+@import './faq.scss';
+@import './hero-down.scss';
+@import './burger-menu.scss';
+@import './modal-cookies.scss';
+@import './policy.scss';
+@import './terms.scss';
+@import './cookies.scss';
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -7,12 +20,16 @@
   line-height: 24px;
   font-weight: 400;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  --background-color: #39036e;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: 'Open Sans', sans-serif;
 }
