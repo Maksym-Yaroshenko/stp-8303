@@ -1,11 +1,11 @@
 {
-  "name": "stp-8303",
+  "name": "vanilla-vite-template",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/stp-8303/",
+    "build": "vite build --base=/vanilla-vite-template/",
     "preview": "vite preview",
     "build:preview": "vite build && vite preview",
     "predeploy": "npm run build",
