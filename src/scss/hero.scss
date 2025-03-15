@@ -1,0 +1,110 @@
+.hero-section {
+  height: 620px;
+}
+
+.bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  height: 620px;
+}
+
+.name-of-the-game {
+  font-family: var(--font-family-Baloo);
+  font-size: 48px;
+  // font-weight: 400;
+  font-weight: 700;
+  text-align: center;
+
+  padding-top: (60px + 388px);
+  margin-bottom: 3px;
+}
+
+.game-description {
+  display: none;
+}
+
+.play-button {
+  background-color: var(--background-color-link-play-market);
+  border: 0;
+  border-radius: 20px;
+  background: var(--background-button-link-play-market);
+  box-shadow: var(--box-shadow-link-play-market);
+
+  width: 280px;
+  height: 60px;
+}
+
+.play-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+.play-market-btn-icon {
+  width: 46px;
+  height: 50px;
+  aspect-ratio: 23/25;
+  display: block;
+}
+
+.text-for-the-game {
+  color: var(--white-color);
+  font-size: 20px;
+  line-height: normal;
+  text-align: left;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+@include media(desktop) {
+  .hero-section {
+    height: 853px;
+  }
+
+  .bg-img {
+    height: 853px;
+    object-position: right;
+  }
+
+  .name-of-the-game {
+    font-family: var(--font-family-Baloo);
+    font-size: 96px;
+    text-align: left;
+
+    padding-top: (100px + 169px);
+    margin-bottom: -34px;
+  }
+
+  .game-description {
+    display: block;
+    width: 384px;
+
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-bottom: 70px;
+  }
+
+  .play-button {
+    width: 305px;
+    height: 76px;
+  }
+
+  .play-market-btn-icon {
+    width: 50px;
+    height: 55px;
+    aspect-ratio: 10/11;
+  }
+
+  .text-for-the-game {
+    font-size: 24px;
+  }
+}
