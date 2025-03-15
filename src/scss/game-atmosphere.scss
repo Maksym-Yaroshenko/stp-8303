@@ -1,0 +1,48 @@
+.game-atmosphere-section {
+  margin-bottom: 30px;
+}
+
+@include media(desktop) {
+  .game-atmosphere-section {
+    margin-bottom: 73px;
+  }
+}
+
+.game-atmosphere-title {
+  font-family: 'Baloo Bhaina 2', sans-serif;
+  @include font(24, 28.8);
+  text-align: center;
+  color: var(--white-color);
+  margin-bottom: 12px;
+}
+
+@include media(desktop) {
+  .game-atmosphere-title {
+    @include font(52, 52);
+    text-align: start;
+    margin-bottom: 32px;
+  }
+}
+
+.game-atmosphere-text {
+  @include font(18, 24);
+  color: var(--white-color);
+}
+
+@include media(desktop) {
+  .game-atmosphere-text {
+    @include font(24, 32);
+    padding: 24px 40px;
+    border-radius: 20px;
+    background: radial-gradient(
+        118.51% 118.51% at 26.73% 68.41%,
+        var(--gradient-black) 13.19%,
+        var(--gradient-white) 29.52%,
+        rgba(255, 66, 252, 0.2) 37.21%,
+        var(--gradient-black) 47.28%,
+        var(--gradient-white) 53.63%,
+        var(--gradient-black) 69.87%
+      ),
+      linear-gradient(0deg, var(--background-about), var(--background-about));
+  }
+}

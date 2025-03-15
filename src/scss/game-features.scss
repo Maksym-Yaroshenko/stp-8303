@@ -1,0 +1,102 @@
+.game-features-section {
+  margin-bottom: 30px;
+}
+
+@include media(desktop) {
+  .game-features-section {
+    margin-bottom: 80px;
+    scroll-margin-top: 130px;
+  }
+}
+
+.game-features-title {
+  font-family: 'Baloo Bhaina 2', sans-serif;
+  @include font(24, 28.8);
+  text-align: center;
+  color: var(--white-color);
+  margin-bottom: 12px;
+}
+
+@include media(desktop) {
+  .game-features-title {
+    @include font(52, 52);
+    text-align: start;
+  }
+}
+
+.game-features-text {
+  @include font(18, 24);
+  color: var(--white-color);
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+@include media(desktop) {
+  .game-features-text {
+    @include font(24, 24);
+    margin-bottom: 32px;
+  }
+}
+
+.game-features-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+@include media(desktop) {
+  .game-features-list {
+    gap: 24px;
+  }
+}
+
+.game-features-item {
+  background: linear-gradient(
+      180deg,
+      var(--gradient-black) 21.85%,
+      var(--gradient-white) 85.56%,
+      var(--gradient-black) 100%
+    ),
+    linear-gradient(0deg, var(--background-about), var(--background-about));
+  border-radius: 20px;
+  padding: 25px 20px;
+}
+
+@include media(desktop) {
+  .game-features-item {
+    width: 508px;
+    height: 116px;
+    padding: 31px 44px 33px 20px;
+  }
+}
+
+.game-features-item > h3 {
+  @include font(16, 16);
+  font-weight: 700;
+  color: var(--white-color);
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+@include media(desktop) {
+  .game-features-item > h3 {
+    @include font(20, 20);
+    text-align: start;
+  }
+}
+
+.game-features-item > p {
+  @include font(16, 16);
+  font-weight: 400;
+  color: var(--white-color);
+  text-align: center;
+}
+
+@include media(desktop) {
+  .game-features-item > p {
+    @include font(18, 18);
+    text-align: start;
+  }
+}

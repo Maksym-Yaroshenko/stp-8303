@@ -3,6 +3,7 @@ import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 const burgerMenu = document.querySelector('.backdrop');
 const openButton = document.querySelector('.button-burger-menu');
 const closeButton = document.querySelector('.button-close');
+const burgerLinks = document.querySelectorAll('.burger-links');
 
 const toggleMenu = () => {
   const isMenuOpen =
@@ -23,6 +24,9 @@ burgerMenu.addEventListener('click', event => {
   if (event.target === burgerMenu) {
     toggleMenu();
   }
+});
+burgerLinks.forEach(link => {
+  link.addEventListener('click', toggleMenu);
 });
 
 window.matchMedia('(min-width: 1200px)').addEventListener('change', e => {

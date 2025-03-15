@@ -20,11 +20,16 @@
   line-height: 24px;
   font-weight: 400;
 
-  --gradient-black: rgba(0, 0, 0, 0.1);
+  --shadow-black: rgba(0, 0, 0, 0.5);
+  --gradient-black: rgba(0, 0, 0, 0.2);
   --gradient-white: rgba(255, 255, 255, 0.2);
   --background-color: #39036e;
   --background-burger: #32065c;
+  --background-about: #770da0;
   --backdrop-color: rgba(0, 0, 0, 0.7);
+
+  --bullet-active: #983eb3;
+  --bullet-color: #af70c5;
 
   --black-color: #000;
   --white-color: #fff;
@@ -34,6 +39,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
