@@ -15,16 +15,24 @@
 @import './cookies.scss';
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  // font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  --font-family-Baloo: 'Baloo Bhaina 2', sans-serif;
 
   --gradient-black: rgba(0, 0, 0, 0.1);
   --gradient-white: rgba(255, 255, 255, 0.2);
   --background-color: #39036e;
   --background-burger: #32065c;
   --backdrop-color: rgba(0, 0, 0, 0.7);
+
+  --background-color-link-play-market: #7519a3;
+  --background-button-link-play-market: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 53%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    var(--background-color-link-play-market);
+  --box-shadow-link-play-market: 4px 4px 10px 0px rgba(76, 78, 148, 0.25);
 
   --black-color: #000;
   --white-color: #fff;
@@ -37,14 +45,20 @@
 }
 
 body {
-  background-color: var(--background-color);
+  position: relative;
   font-family: 'Open Sans', sans-serif;
+  color: var(--white-color);
+  background-color: var(--background-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-.section {
-  // padding-left: 16px;
-  // padding-right: 16px;
-}
+// .section {
+//   padding-left: 16px;
+//   padding-right: 16px;
+// }
 
 .container {
   height: 100%;
