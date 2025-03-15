@@ -19,10 +19,41 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/stp-8303/commonHelpers2.js"></script>
-    <link rel="stylesheet" href="/stp-8303/assets/styles-bc39dc15.css">
+    <link rel="modulepreload" crossorigin href="/stp-8303/assets/vendor-9ceb8365.js">
+    <link rel="stylesheet" href="/stp-8303/assets/styles-0bb9e254.css">
   </head>
   <body>
-    
+    <header>
+  <div class="container">
+    <div class="header-container">
+      <button
+        type="button"
+        class="button-burger-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg width="24" height="24">
+          <use href="../img/sprite.svg#icon-burger-menu"></use>
+        </svg>
+      </button>
+
+      <a href="/">
+        <img src="../img/favicon/favicon.png" alt="favicon" class="favicon" />
+      </a>
+      <a href="#" class="header-title">PLAY MATCH</a>
+
+      <nav class="nav">
+        <a href="/" class="nav-links">HOME</a>
+        <a href="#" class="nav-links">ABOUT THE GAME</a>
+        <a href="#" class="nav-links">HOW TO PLAY</a>
+        <a href="#" class="nav-links">GAME FEATURES</a>
+        <a href="#" class="nav-links">GALLERY</a>
+        <a href="#" class="nav-links">REVIEWS</a>
+        <a href="#" class="nav-links">FAQ</a>
+      </nav>
+    </div>
+  </div>
+</header>
 
 
     <main>
@@ -39,7 +70,24 @@
 
     
 
-    
+    <div class="backdrop" id="mobile-menu">
+  <div class="burger-menu">
+    <button type="button" class="button-close">
+      <svg width="24" height="24">
+        <use href="../img/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+
+    <a href="/" class="nav-links">HOME</a>
+    <a href="#" class="nav-links">ABOUT THE GAME</a>
+    <a href="#" class="nav-links">HOW TO PLAY</a>
+    <a href="#" class="nav-links">GAME FEATURES</a>
+    <a href="#" class="nav-links">GALLERY</a>
+    <a href="#" class="nav-links">REVIEWS</a>
+    <a href="#" class="nav-links">FAQ</a>
+  </div>
+</div>
+
     
 
     <!-- <script type="module" src="./main.js"></script> -->
