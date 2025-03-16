@@ -1,10 +1,14 @@
 .about-section {
-  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 @include media(desktop) {
   .about-section {
-    margin-bottom: 18px;
+    scroll-margin-top: 100px;
+
+    padding-top: 0;
+    padding-bottom: 25px;
   }
 }
 
@@ -18,8 +22,10 @@
 
 @include media(desktop) {
   .about-title {
-    @include font(52, 52);
+    font-size: 52px;
+    line-height: normal;
     text-align: start;
+    margin-bottom: 0;
   }
 }
 

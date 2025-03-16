@@ -1,11 +1,14 @@
 .game-features-section {
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 
 @include media(desktop) {
   .game-features-section {
-    margin-bottom: 80px;
     scroll-margin-top: 130px;
+
+    // padding-top: 30px;
+    padding-bottom: 40px;
   }
 }
 

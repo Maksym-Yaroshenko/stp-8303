@@ -1,5 +1,7 @@
 .hero-section {
   height: 620px;
+
+  padding-bottom: 15px;
 }
 
 .bg-img {
@@ -65,11 +67,13 @@
 @include media(desktop) {
   .hero-section {
     height: 853px;
+
+    padding-bottom: 104px;
   }
 
   .bg-img {
     height: 853px;
-    object-position: right;
+    // object-position: top;
   }
 
   .name-of-the-game {
