@@ -1,0 +1,86 @@
+.cookies-section {
+  padding-top: 16px;
+}
+
+.cookie-name {
+  font-family: var(--font-family-Baloo);
+  font-size: 24px;
+  // font-weight: 400;
+
+  margin-bottom: 12px;
+}
+.cookie-code {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  // white-space: wrap;
+
+  font-family: 'Open Sans';
+  font-weight: 600;
+  // font-weight: 400;
+
+  padding: 0;
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+.data-update {
+  font-weight: 600;
+  // font-weight: 400;
+
+  margin-bottom: 28px;
+}
+
+.cookie-text {
+  font-weight: 600;
+  // font-weight: 400;
+
+  margin-bottom: 12px;
+}
+
+.interpretation-title {
+  font-family: var(--font-family-Baloo);
+  // font-weight: 400;
+  @include font(20, 24);
+
+  margin-bottom: 12px;
+}
+
+.about-interpretation {
+  font-weight: 800;
+  // font-weight: 600;
+
+  margin-bottom: 28px;
+}
+
+.interpretation-text {
+  font-weight: 600;
+  // font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.definitions-text {
+  font-weight: 600;
+  // font-weight: 400;
+}
+
+.definitions-list {
+  list-style: inside;
+  list-style-position: outside;
+  padding-left: 24px;
+}
+
+.definitions-item {
+  font-weight: 600;
+  // font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.definitions-item:last-child {
+  margin-bottom: 0;
+}
+
+.definitions-item-final {
+  font-weight: 600;
+
+  margin-bottom: 12px;
+}
