@@ -8,15 +8,18 @@
 @import './reviews.scss';
 @import './faq.scss';
 @import './hero-down.scss';
+@import './footer.scss';
 @import './burger-menu.scss';
 @import './modal-cookies.scss';
 @import './policy.scss';
 @import './terms.scss';
 @import './cookies.scss';
+@import './button-back.scss';
 
 :root {
   // font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   --font-family-Baloo: 'Baloo Bhaina 2', sans-serif;
+  --font-family-Lora: 'Lora', serif;
 
   --shadow-black: rgba(0, 0, 0, 0.5);
   --gradient-black: rgba(0, 0, 0, 0.2);

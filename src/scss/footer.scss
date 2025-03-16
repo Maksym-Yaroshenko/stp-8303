@@ -1,0 +1,52 @@
+.footer-section {
+  background: linear-gradient(
+      180deg,
+      var(--gradient-black) 0.5%,
+      var(--gradient-white) 78%,
+      var(--gradient-black) 100%
+    ),
+    var(--background-color);
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 21px;
+
+  padding-bottom: 14px;
+}
+
+.footer-navigation-link {
+  font-size: 15px;
+}
+
+.link-to-the-main-page {
+  text-align: center;
+
+  font-size: 20px;
+}
+
+@include media(desktop) {
+  .footer-section {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .footer-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-bottom: 7px;
+  }
+
+  .link-to-the-main-page {
+    text-align: center;
+
+    font-size: 24px;
+  }
+}
