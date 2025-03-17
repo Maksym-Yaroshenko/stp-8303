@@ -2,85 +2,165 @@
   padding-top: 16px;
 }
 
-.cookie-name {
-  font-family: var(--font-family-Baloo);
-  font-size: 24px;
-  // font-weight: 400;
+@include media(desktop) {
+  .cookies-section {
+    padding-top: 40px;
+  }
+}
 
+.cookie-title {
+  font-family: var(--font-family-Baloo);
+  @include font(24, 24);
+  text-align: center;
   margin-bottom: 12px;
 }
-.cookie-code {
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  // white-space: wrap;
 
-  font-family: 'Open Sans';
-  font-weight: 600;
-  // font-weight: 400;
-
-  padding: 0;
-  margin: 0;
-  margin-bottom: 28px;
+@include media(desktop) {
+  .cookie-title {
+    @include font(36, 36);
+    text-align: start;
+    margin-bottom: 24px;
+  }
 }
 
-.data-update {
-  font-weight: 600;
-  // font-weight: 400;
+// .cookie-code {
+//   white-space: pre-wrap;
+//   word-wrap: break-word;
+//   font-family: 'Open Sans';
+//   font-weight: 600;
+//   padding: 0;
+//   margin: 0;
+//   margin-bottom: 32px;
+// }
 
-  margin-bottom: 28px;
+// @include media(desktop) {
+//   .cookie-code {
+//     @include font(20, 30);
+//     margin-bottom: 40px;
+//   }
+// }
+
+.cookie-block-title {
+  font-family: var(--font-family-Baloo);
+  @include font(20, 24);
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+@include media(desktop) {
+  .cookie-block-title {
+    @include font(28, 28);
+    text-align: start;
+    margin-bottom: 24px;
+  }
+}
+
+.cookie-block-subtitle {
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+@include media(desktop) {
+  .cookie-block-subtitle {
+    @include font(20, 20);
+    margin-bottom: 12px;
+  }
 }
 
 .cookie-text {
   font-weight: 600;
-  // font-weight: 400;
+  margin-bottom: 32px;
+}
 
+@include media(desktop) {
+  .cookie-text {
+    @include font(20, 30);
+    margin-bottom: 40px;
+  }
+}
+
+.cookie-text:nth-child(4),
+.cookie-text:nth-child(7),
+.cookie-text:nth-child(11),
+.cookie-text:nth-child(19) {
   margin-bottom: 12px;
 }
 
-.interpretation-title {
-  font-family: var(--font-family-Baloo);
-  // font-weight: 400;
-  @include font(20, 24);
-
-  margin-bottom: 12px;
+@include media(desktop) {
+  .cookie-text:nth-child(4),
+  .cookie-text:nth-child(7),
+  .cookie-text:nth-child(11),
+  .cookie-text:nth-child(19) {
+    margin-bottom: 24px;
+  }
 }
 
-.about-interpretation {
-  font-weight: 800;
-  // font-weight: 600;
-
-  margin-bottom: 28px;
-}
-
-.interpretation-text {
-  font-weight: 600;
-  // font-weight: 400;
-  margin-bottom: 8px;
-}
-
-.definitions-text {
-  font-weight: 600;
-  // font-weight: 400;
-}
-
-.definitions-list {
-  list-style: inside;
-  list-style-position: outside;
-  padding-left: 24px;
-}
-
-.definitions-item {
-  font-weight: 600;
-  // font-weight: 400;
-  margin-bottom: 4px;
-}
-
-.definitions-item:last-child {
+.cookie-text:nth-child(9),
+.cookie-text:nth-child(14),
+.cookie-text:nth-child(17) {
   margin-bottom: 0;
 }
 
-.definitions-item-final {
-  font-weight: 600;
+.cookie-text a {
+  display: inline;
+  text-decoration: underline;
+}
 
-  margin-bottom: 12px;
+.cookie-text:last-child a {
+  text-decoration: none;
+}
+
+.cookie-list {
+  list-style: disc;
+  padding-left: 28px;
+}
+
+@include media(desktop) {
+  .cookie-list {
+    padding-left: 30px;
+  }
+}
+
+.second-list {
+  margin-bottom: 32px;
+}
+
+@include media(desktop) {
+  .second-list {
+    margin-bottom: 24px;
+  }
+}
+
+.second-list > .cookie-item ul {
+  list-style: inside;
+}
+
+.second-list > .cookie-item ul li {
+  padding-left: 10px;
+}
+
+@include media(desktop) {
+  .second-list > .cookie-item ul li {
+    padding-left: 12px;
+  }
+}
+
+.cookie-item {
+  font-weight: 600;
+}
+
+@include media(desktop) {
+  .cookie-item {
+    @include font(20, 30);
+  }
+}
+
+.cookie-item a {
+  display: inline;
+  text-decoration: underline;
+}
+
+.third-list li a {
+  display: inline;
+  word-wrap: break-word;
 }

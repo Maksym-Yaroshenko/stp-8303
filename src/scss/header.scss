@@ -66,8 +66,7 @@ header {
   .header-title {
     display: block;
     max-width: 78px;
-    @include font(20, 20);
-    color: var(--white-color);
+    @include font(20, 26.6);
     margin-top: 16px;
     margin-left: 24px;
   }
@@ -86,7 +85,6 @@ header {
 }
 
 .nav-links {
-  color: var(--white-color);
-  @include font(18, 18);
+  @include font(18, 24);
   padding: 22px 0;
 }
