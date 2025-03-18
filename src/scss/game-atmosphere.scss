@@ -11,7 +11,7 @@
 }
 
 .game-atmosphere-title {
-  font-family: 'Baloo Bhaina 2', sans-serif;
+  font-family: var(--font-family-Baloo);
   @include font(24, 28.8);
   text-align: center;
   color: var(--white-color);

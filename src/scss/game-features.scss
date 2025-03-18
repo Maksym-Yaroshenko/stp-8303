@@ -5,15 +5,13 @@
 
 @include media(desktop) {
   .game-features-section {
-    scroll-margin-top: 130px;
-
-    // padding-top: 30px;
+    scroll-margin-top: 100px;
     padding-bottom: 40px;
   }
 }
 
 .game-features-title {
-  font-family: 'Baloo Bhaina 2', sans-serif;
+  font-family: var(--font-family-Baloo);
   @include font(24, 28.8);
   text-align: center;
   color: var(--white-color);
@@ -76,7 +74,6 @@
 }
 
 .game-features-item > h3 {
-  @include font(16, 16);
   font-weight: 700;
   color: var(--white-color);
   text-align: center;
@@ -91,7 +88,6 @@
 }
 
 .game-features-item > p {
-  @include font(16, 16);
   font-weight: 400;
   color: var(--white-color);
   text-align: center;

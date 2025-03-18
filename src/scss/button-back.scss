@@ -7,6 +7,12 @@
   margin-bottom: 12px;
 }
 
+@include media(desktop) {
+  .list-back {
+    margin-bottom: 24px;
+  }
+}
+
 .button-back {
   position: relative;
 
@@ -38,8 +44,18 @@
   height: 36px;
 }
 
+@include media(desktop) {
+  .icon-back {
+    left: 8px;
+  }
+}
 .text-to-main-menu {
-  color: var(--white-color);
   font-family: var(--font-family-Lora);
   font-weight: 600;
+}
+
+@include media(desktop) {
+  .text-to-main-menu {
+    @include font(20, 20);
+  }
 }
