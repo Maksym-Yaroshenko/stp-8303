@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', () => {
   const modalCookies = document.querySelector('.modal-cookies');
   const acceptButton = document.querySelector('.accept-button');
   const declineButton = document.querySelector('.decline-button');
