@@ -43,7 +43,10 @@
       rgba(0, 0, 0, 0.2) 100%
     ),
     var(--background-color-link-play-market);
+
   --box-shadow-link-play-market: 4px 4px 10px 0px rgba(76, 78, 148, 0.25);
+  --boxshadow-header: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   --black-color: #000;
   --white-color: #fff;
