@@ -28,10 +28,14 @@
   font-size: 15px;
 }
 
-.link-to-the-main-page {
+.home-page {
   text-align: center;
 
   font-size: 20px;
+}
+
+.secondary-pages > .footer-section > .container > .link-to-the-main-page {
+  text-align: start;
 }
 
 @include media(desktop) {
@@ -48,9 +52,11 @@
     padding-bottom: 7px;
   }
 
-  .link-to-the-main-page {
-    text-align: center;
-
+  .home-page {
     font-size: 24px;
+  }
+
+  .secondary-pages > .footer-section > .container > .link-to-the-main-page {
+    text-align: center;
   }
 }
