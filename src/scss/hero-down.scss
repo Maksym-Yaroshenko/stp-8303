@@ -1,0 +1,35 @@
+.hero-down {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.join-the-party-hero-down {
+  font-family: var(--font-family-Baloo);
+  @include font(24, 28.8);
+
+  text-align: center;
+
+  margin-bottom: 8px;
+}
+
+.text-hero-down {
+  text-align: center;
+
+  margin-bottom: 40px;
+}
+
+@include media(desktop) {
+  .join-the-party-hero-down {
+    font-size: 52px;
+    line-height: normal;
+    margin-bottom: -16px;
+  }
+
+  .text-hero-down {
+    font-size: 24px;
+  }
+
+  .play-button-hero-down {
+    margin: 0 auto;
+  }
+}
