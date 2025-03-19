@@ -12,18 +12,36 @@
         </svg>
       </button>
 
-      <a href="/">
-        <img src="./img/favicon/favicon.png" alt="favicon" class="favicon" />
-      </a>
-      <a href="#" class="header-title">PLAY MATCH</a>
+      <picture>
+        <source
+          srcset="
+            ./img/favicon/favicon-mobile.png    1x,
+            ./img/favicon/favicon-mobile@2x.png 2x
+          "
+          media="(max-width:1200px)"
+        />
+        <source
+          srcset="
+            ./img/favicon/favicon-desktop.png    1x,
+            ./img/favicon/favicon-desktop@2x.png 2x
+          "
+          media="(min-width:1200px)"
+        />
+        <img
+          src="./img/favicon/favicon-mobile.png"
+          alt="favicon"
+          class="favicon"
+        />
+      </picture>
+      <p class="header-title">PLAY MATCH</p>
 
       <nav class="nav">
         <a href="#home" class="nav-links">HOME</a>
         <a href="#about" class="nav-links">ABOUT THE GAME</a>
         <a href="#how-to-play" class="nav-links">HOW TO PLAY</a>
         <a href="#game-features" class="nav-links">GAME FEATURES</a>
-        <a href="#" class="nav-links">GALLERY</a>
-        <a href="#" class="nav-links">REVIEWS</a>
+        <a href="#gallery" class="nav-links">GALLERY</a>
+        <a href="#reviews" class="nav-links">REVIEWS</a>
         <a href="#" class="nav-links">FAQ</a>
       </nav>
     </div>
