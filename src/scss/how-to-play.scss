@@ -63,9 +63,8 @@
 
 @include media(desktop) {
   .how-to-play-section {
+    scroll-margin-top: 100px;
     height: 702px;
-
-    padding-top: 30px;
   }
 
   .bg-img-how-to-play {

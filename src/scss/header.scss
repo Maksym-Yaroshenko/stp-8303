@@ -77,12 +77,12 @@ header {
 @include media(desktop) {
   .nav {
     display: flex;
-    gap: 24px;
-    margin-left: 72px;
+    // gap: 24px;
+    margin-left: 50px;
   }
 }
 
 .nav-links {
   @include font(18, 24);
-  padding: 22px 0;
+  padding: 22px 12px;
 }

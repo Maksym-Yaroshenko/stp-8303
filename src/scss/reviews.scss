@@ -1,12 +1,12 @@
 .reviews-section {
-  scroll-margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 @include media(desktop) {
   .reviews-section {
     scroll-margin-top: 100px;
-    margin-bottom: 60px;
+    padding-bottom: 30px;
   }
 }
 
@@ -88,7 +88,7 @@
   .swiper-reviews > .swiper-button-prev,
   .swiper-reviews > .swiper-button-next {
     display: block;
-    margin-top: 60px;
+    margin-top: 76px;
     width: 60px;
     height: 60px;
     padding: 12px;

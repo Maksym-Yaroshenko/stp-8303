@@ -55,7 +55,7 @@ const handleMediaQueries = () => {
     } else {
       swiperAbout = initSwiper('.swiper-about', 1, 24, 5000);
       swiperGallery = initSwiper('.swiper-gallery', 1, 24, 5000);
-      swiperReviews = initSwiper('.swiper-reviews', 3, 50, 5000);
+      swiperReviews = initSwiper('.swiper-reviews', 1, 24, 5000);
     }
   };
 

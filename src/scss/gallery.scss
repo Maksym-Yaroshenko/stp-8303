@@ -1,12 +1,12 @@
 .gellary-section {
-  scroll-margin-top: 30px;
-  margin-bottom: 36px;
+  padding-top: 30px;
+  padding-bottom: 6px;
 }
 
 @include media(desktop) {
   .gellary-section {
     scroll-margin-top: 100px;
-    margin-bottom: 80px;
+    padding-bottom: 50px;
   }
 }
 
